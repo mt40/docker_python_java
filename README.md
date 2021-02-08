@@ -11,7 +11,7 @@ Docker Hub pull changes from new push to `master` and build for tag `latest`.
 Push changes from your local computer by running:
 
 ```shell
-docker build -r minhthai/python_java:tagname .
+docker build -t minhthai/python_java:tagname .
 docker push minhthai/python_java:tagname
 ```
 
